@@ -1,0 +1,54 @@
+"use strict";
+self["webpackHotUpdatees6_react"](0,{
+
+/***/ 23:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(27);
+
+
+function ShopItemHeader(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, props.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: props.image,
+    alt: "img"
+  })));
+}
+function ShopItemDescription(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, props.description)));
+}
+function ShopItemPricing(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, "Cena: ", props.price, " z\u0142", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Kup!")));
+}
+function ShopItem(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ShopItemHeader, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ShopItemDescription, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ShopItemPricing, null)));
+}
+function App() {
+  var data = {
+    title: "MacBook Pro",
+    image: "https://bit.ly/2EEtduD",
+    description: "Moc i mobilność – MacBook Pro wyraźnie podnosi tu poprzeczkę. Teraz możesz jeszcze szybciej realizować swoje pomysły. Pomogą Ci w tym wydajne procesory i układy pamięci, zaawansowana grafika, błyskawicznie działająca pamięć masowa i inne doskonałe rozwiązania.",
+    price: 9999
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ShopItem, {
+    menu: data
+  }));
+}
+var container = document.getElementById("app");
+var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(container);
+root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(App, null));
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("1c906f3bcdd819598265")
+/******/ })();
+/******/ 
+/******/ }
+);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5kNGNmYzNlMWI0MDhjYWZlNjhiYS5ob3QtdXBkYXRlLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBMEI7QUFDa0I7QUFFNUMsU0FBU0UsY0FBY0EsQ0FBQ0MsS0FBSyxFQUFFO0VBQzNCLG9CQUNJSCwwREFBQSxDQUFBQSx1REFBQSxxQkFDSUEsMERBQUEsOEJBQ0lBLDBEQUFBLGFBQUtHLEtBQUssQ0FBQ0csS0FBVSxDQUFDLGVBQ3RCTiwwREFBQTtJQUFLTyxHQUFHLEVBQUVKLEtBQUssQ0FBQ0ssS0FBTTtJQUFDQyxHQUFHLEVBQUM7RUFBSyxDQUFDLENBQzdCLENBQ1YsQ0FBQztBQUVYO0FBRUEsU0FBU0MsbUJBQW1CQSxDQUFDUCxLQUFLLEVBQUU7RUFDaEMsb0JBQ0lILDBEQUFBLENBQUFBLHVEQUFBLHFCQUNJQSwwREFBQSwrQkFDSUEsMERBQUEsWUFBSUcsS0FBSyxDQUFDUSxXQUFlLENBQ3BCLENBQ1gsQ0FBQztBQUVYO0FBRUEsU0FBU0MsZUFBZUEsQ0FBQ1QsS0FBSyxFQUFFO0VBQzVCLG9CQUNJSCwwREFBQSxDQUFBQSx1REFBQSxxQkFDSUEsMERBQUEsaUJBQVEsUUFDRSxFQUFDRyxLQUFLLENBQUNVLEtBQUssRUFBQyxVQUNuQixlQUFBYiwwREFBQSxpQkFBUSxNQUFZLENBQ2hCLENBQ1YsQ0FBQztBQUVYO0FBRUEsU0FBU2MsUUFBUUEsQ0FBQ1gsS0FBSyxFQUFFO0VBQ3JCLG9CQUNJSCwwREFBQSxDQUFBQSx1REFBQSxxQkFDSUEsMERBQUEsK0JBQ0lBLDBEQUFBLENBQUNFLGNBQWMsTUFBQyxDQUFDLGVBQ2pCRiwwREFBQSxDQUFDVSxtQkFBbUIsTUFBQyxDQUFDLGVBQ3RCViwwREFBQSxDQUFDWSxlQUFlLE1BQUMsQ0FDWixDQUNYLENBQUM7QUFFWDtBQUVBLFNBQVNHLEdBQUdBLENBQUEsRUFBRztFQUVYLElBQU1DLElBQUksR0FBRztJQUNUVixLQUFLLEVBQUUsYUFBYTtJQUNwQkUsS0FBSyxFQUFFLHdCQUF3QjtJQUMvQkcsV0FBVyxFQUFFLHNRQUFzUTtJQUNuUkUsS0FBSyxFQUFFO0VBQ1gsQ0FBQztFQUNELG9CQUNJYiwwREFBQSxDQUFBQSx1REFBQSxxQkFDSUEsMERBQUEsQ0FBQ2MsUUFBUTtJQUFDRyxJQUFJLEVBQUVEO0VBQUssQ0FDWCxDQUNaLENBQUM7QUFFWDtBQUVBLElBQU1FLFNBQVMsR0FBR0MsUUFBUSxDQUFDQyxjQUFjLENBQUMsS0FBSyxDQUFDO0FBQ2hELElBQU1DLElBQUksR0FBR3BCLDREQUFVLENBQUNpQixTQUFTLENBQUM7QUFDbENHLElBQUksQ0FBQ0MsTUFBTSxlQUFDdEIsMERBQUEsQ0FBQ2UsR0FBRyxNQUFDLENBQUMsQ0FBQzs7Ozs7Ozs7VUNqRW5CIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZXM2LXJlYWN0Ly4vMDRfRHppZW5fNS03LzAxX0tvbXBvenljamFfaV9wcm9wc19jaGlsZHJlbi8wMl9aYWRhbmllXzIvanMvYXBwLmpzIiwid2VicGFjazovL2VzNi1yZWFjdC93ZWJwYWNrL3J1bnRpbWUvZ2V0RnVsbEhhc2giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHtjcmVhdGVSb290fSBmcm9tIFwicmVhY3QtZG9tL2NsaWVudFwiO1xuXG5mdW5jdGlvbiBTaG9wSXRlbUhlYWRlcihwcm9wcykge1xuICAgIHJldHVybiAoXG4gICAgICAgIDw+XG4gICAgICAgICAgICA8aGVhZGVyPlxuICAgICAgICAgICAgICAgIDxoMT57cHJvcHMudGl0bGV9PC9oMT5cbiAgICAgICAgICAgICAgICA8aW1nIHNyYz17cHJvcHMuaW1hZ2V9IGFsdD1cImltZ1wiLz5cbiAgICAgICAgICAgIDwvaGVhZGVyPlxuICAgICAgICA8Lz5cbiAgICApXG59XG5cbmZ1bmN0aW9uIFNob3BJdGVtRGVzY3JpcHRpb24ocHJvcHMpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8PlxuICAgICAgICAgICAgPGFydGljbGU+XG4gICAgICAgICAgICAgICAgPHA+e3Byb3BzLmRlc2NyaXB0aW9ufTwvcD5cbiAgICAgICAgICAgIDwvYXJ0aWNsZT5cbiAgICAgICAgPC8+XG4gICAgKVxufVxuXG5mdW5jdGlvbiBTaG9wSXRlbVByaWNpbmcocHJvcHMpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8PlxuICAgICAgICAgICAgPGZvb3Rlcj5cbiAgICAgICAgICAgICAgICBDZW5hOiB7cHJvcHMucHJpY2V9IHrFglxuICAgICAgICAgICAgICAgIDxidXR0b24+S3VwITwvYnV0dG9uPlxuICAgICAgICAgICAgPC9mb290ZXI+XG4gICAgICAgIDwvPlxuICAgIClcbn1cblxuZnVuY3Rpb24gU2hvcEl0ZW0ocHJvcHMpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8PlxuICAgICAgICAgICAgPHNlY3Rpb24+XG4gICAgICAgICAgICAgICAgPFNob3BJdGVtSGVhZGVyLz5cbiAgICAgICAgICAgICAgICA8U2hvcEl0ZW1EZXNjcmlwdGlvbi8+XG4gICAgICAgICAgICAgICAgPFNob3BJdGVtUHJpY2luZy8+XG4gICAgICAgICAgICA8L3NlY3Rpb24+XG4gICAgICAgIDwvPlxuICAgIClcbn1cblxuZnVuY3Rpb24gQXBwKCkge1xuXG4gICAgY29uc3QgZGF0YSA9IHtcbiAgICAgICAgdGl0bGU6IFwiTWFjQm9vayBQcm9cIixcbiAgICAgICAgaW1hZ2U6IFwiaHR0cHM6Ly9iaXQubHkvMkVFdGR1RFwiLFxuICAgICAgICBkZXNjcmlwdGlvbjogXCJNb2MgaSBtb2JpbG5vxZvEhyDigJMgTWFjQm9vayBQcm8gd3lyYcW6bmllIHBvZG5vc2kgdHUgcG9wcnplY3prxJkuIFRlcmF6IG1vxbxlc3ogamVzemN6ZSBzenliY2llaiByZWFsaXpvd2HEhyBzd29qZSBwb215c8WCeS4gUG9tb2fEhSBDaSB3IHR5bSB3eWRham5lIHByb2Nlc29yeSBpIHVrxYJhZHkgcGFtacSZY2ksIHphYXdhbnNvd2FuYSBncmFmaWthLCBixYJ5c2thd2ljem5pZSBkemlhxYJhasSFY2EgcGFtacSZxIcgbWFzb3dhIGkgaW5uZSBkb3Nrb25hxYJlIHJvendpxIV6YW5pYS5cIixcbiAgICAgICAgcHJpY2U6IDk5OTlcbiAgICB9XG4gICAgcmV0dXJuIChcbiAgICAgICAgPD5cbiAgICAgICAgICAgIDxTaG9wSXRlbSBtZW51PXtkYXRhfT5cbiAgICAgICAgICAgIDwvU2hvcEl0ZW0+XG4gICAgICAgIDwvPlxuICAgIClcbn1cblxuY29uc3QgY29udGFpbmVyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJhcHBcIik7XG5jb25zdCByb290ID0gY3JlYXRlUm9vdChjb250YWluZXIpO1xucm9vdC5yZW5kZXIoPEFwcC8+KTtcbiIsIl9fd2VicGFja19yZXF1aXJlX18uaCA9ICgpID0+IChcIjFjOTA2ZjNiY2RkODE5NTk4MjY1XCIpIl0sIm5hbWVzIjpbIlJlYWN0IiwiY3JlYXRlUm9vdCIsIlNob3BJdGVtSGVhZGVyIiwicHJvcHMiLCJjcmVhdGVFbGVtZW50IiwiRnJhZ21lbnQiLCJ0aXRsZSIsInNyYyIsImltYWdlIiwiYWx0IiwiU2hvcEl0ZW1EZXNjcmlwdGlvbiIsImRlc2NyaXB0aW9uIiwiU2hvcEl0ZW1QcmljaW5nIiwicHJpY2UiLCJTaG9wSXRlbSIsIkFwcCIsImRhdGEiLCJtZW51IiwiY29udGFpbmVyIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCIsInJvb3QiLCJyZW5kZXIiXSwic291cmNlUm9vdCI6IiJ9
