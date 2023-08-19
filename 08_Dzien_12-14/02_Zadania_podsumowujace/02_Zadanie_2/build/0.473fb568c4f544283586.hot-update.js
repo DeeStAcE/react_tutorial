@@ -1,0 +1,19 @@
+self["webpackHotUpdatees6_react"](0,{
+
+/***/ 34:
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/dawid/workspace/tutorial_react/08_Dzien_12-14/02_Zadania_podsumowujace/02_Zadanie_2/js/MathQuestionGame.js: Support for the experimental syntax 'recordAndTuple' isn't currently enabled (5:30):\n\n\u001b[0m \u001b[90m 3 |\u001b[39m \u001b[36mfunction\u001b[39m \u001b[33mMathQuestionGame\u001b[39m() {\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m     \u001b[90m// const arrayOfEquation = [\"+\", \"-\", \"*\"]\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m     \u001b[36mconst\u001b[39m arrayOfEquation \u001b[33m=\u001b[39m [\u001b[33m#\u001b[39m{\u001b[33m+\u001b[39m}\u001b[33m,\u001b[39m \u001b[33m#\u001b[39m{\u001b[33m-\u001b[39m}\u001b[33m,\u001b[39m \u001b[33m#\u001b[39m{\u001b[33m*\u001b[39m}]\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mconst\u001b[39m typeOfEquation \u001b[33m=\u001b[39m arrayOfEquation[\u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mfloor(\u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mrandom() \u001b[33m*\u001b[39m arrayOfEquation\u001b[33m.\u001b[39mlength)]\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m number1 \u001b[33m=\u001b[39m \u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mfloor(\u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mrandom() \u001b[33m*\u001b[39m (\u001b[35m10\u001b[39m \u001b[33m-\u001b[39m \u001b[35m1\u001b[39m) \u001b[33m+\u001b[39m \u001b[35m1\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mconst\u001b[39m number2 \u001b[33m=\u001b[39m \u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mfloor(\u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mrandom() \u001b[33m*\u001b[39m (\u001b[35m10\u001b[39m \u001b[33m-\u001b[39m \u001b[35m1\u001b[39m) \u001b[33m+\u001b[39m \u001b[35m1\u001b[39m)\u001b[0m\n    at instantiate (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:63:32)\n    at constructor (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:358:12)\n    at JSXParserMixin.raise (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:3255:19)\n    at JSXParserMixin.expectPlugin (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:3294:16)\n    at JSXParserMixin.readToken_numberSign (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:2546:12)\n    at JSXParserMixin.getTokenFromCode (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:2906:14)\n    at JSXParserMixin.getTokenFromCode (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:7007:11)\n    at JSXParserMixin.nextToken (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:2379:10)\n    at JSXParserMixin.next (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:2290:10)\n    at JSXParserMixin.parseArrayLike (/home/dawid/workspace/tutorial_react/node_modules/@babel/parser/lib/index.js:11903:10)");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("00e6e70ae542e87b19d0")
+/******/ })();
+/******/ 
+/******/ }
+);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC40NzNmYjU2OGM0ZjU0NDI4MzU4Ni5ob3QtdXBkYXRlLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7VUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2VzNi1yZWFjdC93ZWJwYWNrL3J1bnRpbWUvZ2V0RnVsbEhhc2giXSwic291cmNlc0NvbnRlbnQiOlsiX193ZWJwYWNrX3JlcXVpcmVfXy5oID0gKCkgPT4gKFwiMDBlNmU3MGFlNTQyZTg3YjE5ZDBcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=
